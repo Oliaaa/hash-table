@@ -36,9 +36,9 @@ int main()
 		}
 	}
 	if (pl != -1)
-		printf("Работа программы выполнена, таблица находится в файле 'table.txt'\n");
+		printf("The program is executed, the table is in the file 'table.txt'\n");
 	else
-		fprintf(f, "Таблица не построена");
+		fprintf(f, "Table not built");
 
 	return 0;
 }
